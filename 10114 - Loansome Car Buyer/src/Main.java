@@ -26,6 +26,8 @@ class Main
         catch (IOException e)
         {
             return (null);
+
+
         }
 
         if ((car < 0) && (lg == 0)) return (null);  // eof
@@ -43,35 +45,41 @@ class Main
     {
         String input;
         StringTokenizer idata;
-        int a, b, min, max, num, n, cycle, cyclemax;
 
         while ((input = Main.ReadLn (255)) != null)
         {
             idata = new StringTokenizer (input);
             int durationOfLoanInMonths = Integer.parseInt(idata.nextToken());
+            if (durationOfLoanInMonths < 0)
+                break;
             double downPayment = Double.parseDouble(idata.nextToken());
             double loanAmount = Double.parseDouble(idata.nextToken());
             int numberOfDepreciationRecords = Integer.parseInt(idata.nextToken());
             double carValue = loanAmount + downPayment;
-            loanAmount += downPayment;
+            double amountToReturnEveryMonth = loanAmount/durationOfLoanInMonths;
             DepreciationRecords depreciationRecords = new DepreciationRecords();
-
             for (int i = 0; i < numberOfDepreciationRecords; i++) {
                 depreciationRecords.addDepreciationRecord(new DepreciationRecord(Main.ReadLn(255)));
             }
-
-            for (int i = 0; i < durationOfLoanInMonths; i++) {
-
+            int i;
+            for (i = 0; i < durationOfLoanInMonths; i++) {
                 carValue -= carValue * depreciationRecords.getNextDepreciationRecord(i);
-                loanAmount -= downPayment;
-                System.out.println("Car Value: " + carValue + " LoanAmount: " + loanAmount);
-                System.out.println("car depreciation: " + depreciationRecords.getNextDepreciationRecord(i));
+                //System.out.println("Car Value: " + carValue + " LoanAmount: " + loanAmount);
+                //System.out.println("car depreciation: " + depreciationRecords.getNextDepreciationRecord(i));
                 if (loanAmount < carValue) {
-                    System.out.println("This is it " + i);
+                    if (i == 1)
+                        System.out.println(i + " month");
+                    else
+                        System.out.println(i + " months");
                     break;
-                } else {
-                    //System.out.println("Not yet");
                 }
+                loanAmount -= amountToReturnEveryMonth;
+            }
+            if (i == durationOfLoanInMonths) {
+                if (i == 1)
+                    System.out.println(i + " month");
+                else
+                    System.out.println(i + " months");
             }
         }
     }
