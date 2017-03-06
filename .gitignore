@@ -57,3 +57,6 @@ fabric.properties
 auto-save-list
 tramp
 .\#*
+
+# python
+*.pyc
