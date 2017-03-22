@@ -60,3 +60,4 @@ tramp
 
 # python
 *.pyc
+/__pycache__

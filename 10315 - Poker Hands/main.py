@@ -20,22 +20,10 @@ class Card(object):
         return '%s%s' % (self.rank_names[self.rank], self.suit_names[self.suit])
 
     def __lt__(self, other):
-        if (self.suit < other.suit):
-            return True
-        elif (self.suit == other.suit):
-            return self.rank < other.rank
-        else:
-            return False
+        return self.rank < other.rank
 
-    def __cmp__(self, other):
-        """Compares this card to other, first by suit, then rank.
-
-        Returns a positive number if this > other; negative if other > this;
-        and 0 if they are equivalent.
-        """
-        t1 = self.suit, self.rank
-        t2 = other.suit, other.rank
-        return cmp(t1, t2)
+    def __eq__(self, other):
+        return self.rank == other.rank
 
 class Deck(object):
     """Represents a deck of cards.
@@ -126,7 +114,7 @@ class Hand(Deck):
         max_rank = max(diff_ranks.values())
         if max_rank == 4:
             value = list(diff_ranks.keys())[list(diff_ranks.values()).index(max_rank)]
-            return (True, value)
+            return (True, [value])
         else:
             return (False, None)
 
@@ -136,22 +124,23 @@ class Hand(Deck):
         max_rank = max(dict_of_values)
         if len(dict_of_values) == 2 and max_rank == 3:
             value = list(diff_ranks.keys())[list(diff_ranks.values()).index(max_rank)]
-            return (True, value)
+            return (True, [value])
         else:
             return (False, None)
 
     def is_flush(self):
         if self.number_of_suits() == 1:
-            l = [card.rank for card in self.cards]
-            l.sort()
+            l = sorted([card.rank for card in self.cards], reverse=True)
             return (True, l)
         else:
             return (False, None)
 
     def is_straight(self):
         self.sort()
-        if (self.cards[-1].rank - self.cards[0].rank) is 4:
-            return (True, max(self.cards).rank)
+        ranks = self.diffrent_ranks()
+        diff = self.cards[-1].rank - self.cards[0].rank
+        if len(ranks) is 5 and diff is 4:
+            return (True, [max(self.cards).rank])
         else:
             return (False, None)
 
@@ -160,7 +149,7 @@ class Hand(Deck):
         max_rank = max(diff_ranks.values())
         if max_rank == 3:
             value = list(diff_ranks.keys())[list(diff_ranks.values()).index(max_rank)]
-            return (True, value)
+            return (True, [value])
         else:
             return (False, None)
 
@@ -168,10 +157,14 @@ class Hand(Deck):
         diff_ranks = self.diffrent_ranks()
         if list(diff_ranks.values()).count(2) == 2:
             pairs = []
-            for r, count in diff_ranks:
-                if count == 2:
+            single_value = -1
+            for r, c in diff_ranks.items():
+                if c == 2:
                     pairs.append(r)
-                    pairs.sort()
+                else:
+                    single_value = r
+            pairs.sort(reverse=True)
+            pairs.append(single_value)
             return (True, pairs)
         else:
             return (False, None)
@@ -180,12 +173,14 @@ class Hand(Deck):
         diff_ranks = self.diffrent_ranks()
         if list(diff_ranks.values()).count(2) == 1:
             pairs = []
-            print("This is diff ranks")
-            print(diff_ranks)
-            for r, count in diff_ranks.items():
-                if count != 2:
-                    pairs + ([r] * count)
-                    pairs.sort()
+            par_value = -1
+            for r, c in diff_ranks.items():
+                if c != 2:
+                    pairs.append(r)
+                else:
+                    par_value = r
+            pairs.sort(reverse=True)
+            pairs.insert(0, par_value)
             return (True, pairs)
         else:
             return (False, None)
@@ -199,14 +194,52 @@ class Hand(Deck):
         self.is_two_diff_pairs(), \
         self.is_pair()]
 
-if __name__=='__main__':
-    while True:
-        line = sys.stdin.readline().strip()
-        if line is "":
+def calculate_winner(black_player_hand, white_player_hand):
+    black_best_hand = black_player_hand.max_hand_value()
+    white_best_hand = white_player_hand.max_hand_value()
+    winner = None
+    for i in range(7):
+        (b_won, b_card) = black_best_hand[i]
+        (w_won, w_card) = white_best_hand[i]
+        if b_won and not w_won:
+            winner = "Black wins."
             break
-        black_player = Hand(line[0:14], "Black")
-        white_player = Hand(line[15:], "White")
-        black_player.sort()
-        white_player.sort();
-        print(black_player, black_player.max_hand_value())
-        print(white_player, white_player.max_hand_value())
+        elif w_won and not b_won:
+            winner = "White wins."
+            break
+        elif b_won and w_won:
+            for i in range(len(b_card)):
+                b_best = b_card[i]
+                w_best = w_card[i]
+                if b_best > w_best:
+                    winner = "Black wins."
+                    break
+                elif b_best < w_best:
+                    winner = "White wins."
+                    break
+            if winner == None:
+                winner = "Tie."
+            break
+    if winner == None:
+        black = sorted([card.rank for card in black_player_hand.cards], reverse=True)
+        white = sorted([card.rank for card in white_player_hand.cards], reverse=True)
+        for i in range(len(black)):
+            b_best = black[i]
+            w_best = white[i]
+            if b_best > w_best:
+                winner = "Black wins."
+                break
+            elif b_best < w_best:
+                winner = "White wins."
+                break
+        if winner == None:
+            winner = "Tie."
+    return winner
+
+while True:
+    line = sys.stdin.readline().strip()
+    if line is "":
+        break
+    black_player = Hand(line[0:14], "Black")
+    white_player = Hand(line[15:], "White")
+    print(calculate_winner(black_player, white_player))
