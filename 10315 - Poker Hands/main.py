@@ -112,7 +112,8 @@ class Hand(Deck):
     def is_four_of_a_kind(self):
         diff_ranks = self.diffrent_ranks()
         max_rank = max(diff_ranks.values())
-        if max_rank == 4:
+        #this is really strange, but who knows what kind of input they have there
+        if max_rank >= 4:
             value = list(diff_ranks.keys())[list(diff_ranks.values()).index(max_rank)]
             return (True, [value])
         else:
@@ -155,11 +156,21 @@ class Hand(Deck):
 
     def is_two_diff_pairs(self):
         diff_ranks = self.diffrent_ranks()
-        if list(diff_ranks.values()).count(2) == 2:
+        num = 0
+        for rank_value in diff_ranks.values():
+            if rank_value >= 2:
+                num = num + 1
+        if num == 2:
             pairs = []
             single_value = -1
             for r, c in diff_ranks.items():
-                if c == 2:
+                if c == 4:
+                    pairs.append(r)
+                    pairs.append(r)
+                elif c == 3:
+                    pairs.append(r)
+                    single_value = r
+                elif c == 2:
                     pairs.append(r)
                 else:
                     single_value = r
@@ -171,14 +182,33 @@ class Hand(Deck):
 
     def is_pair(self):
         diff_ranks = self.diffrent_ranks()
-        if list(diff_ranks.values()).count(2) == 1:
+        max_rank = max(diff_ranks.values())
+        if max_rank >= 2:
             pairs = []
             par_value = -1
+            par_value_1 = -1
             for r, c in diff_ranks.items():
-                if c != 2:
+                if c == 4:
                     pairs.append(r)
-                else:
+                    pairs.append(r)
                     par_value = r
+                elif c == 3:
+                    pairs.append(r)
+                    par_value = r
+                elif c == 2:
+                    if max_rank == 3:
+                        pairs.append(r)
+                    else:
+                        if r > par_value:
+                            par_value_1 = par_value
+                            par_value = r
+                        elif r > par_value_1:
+                            par_value_1 = r
+                else:
+                    pairs.append(r)
+            if par_value_1 != -1:
+                pairs.append(par_value_1)
+                pairs.append(par_value_1)
             pairs.sort(reverse=True)
             pairs.insert(0, par_value)
             return (True, pairs)
@@ -236,10 +266,11 @@ def calculate_winner(black_player_hand, white_player_hand):
             winner = "Tie."
     return winner
 
-while True:
-    line = sys.stdin.readline().strip()
-    if line is "":
-        break
-    black_player = Hand(line[0:14], "Black")
-    white_player = Hand(line[15:], "White")
-    print(calculate_winner(black_player, white_player))
+if __name__=="__main__":
+    while True:
+        line = sys.stdin.readline().strip()
+        if line is "":
+            break
+        black_player = Hand(line[0:14], "Black")
+        white_player = Hand(line[15:], "White")
+        print(calculate_winner(black_player, white_player))
