@@ -113,9 +113,20 @@ class Hand(Deck):
         diff_ranks = self.diffrent_ranks()
         max_rank = max(diff_ranks.values())
         #this is really strange, but who knows what kind of input they have there
+        values = []
+        single_value = None
         if max_rank >= 4:
-            value = list(diff_ranks.keys())[list(diff_ranks.values()).index(max_rank)]
-            return (True, [value])
+            for r, c in diff_ranks.items():
+                if c == 5:
+                    values.append(r)
+                    single_value = r
+                elif c == 4:
+                    values.append(r)
+                else:
+                    single_value = r
+            if single_value:
+                values.append(single_value)
+            return (True, values)
         else:
             return (False, None)
 
@@ -123,9 +134,17 @@ class Hand(Deck):
         diff_ranks = self.diffrent_ranks()
         dict_of_values = diff_ranks.values()
         max_rank = max(dict_of_values)
+        values = []
+        single_value = None
         if len(dict_of_values) == 2 and max_rank == 3:
-            value = list(diff_ranks.keys())[list(diff_ranks.values()).index(max_rank)]
-            return (True, [value])
+            for r, c in diff_ranks.items():
+                if c == 3:
+                    values.append(r)
+                else:
+                    single_value = r
+            if single_value:
+                values.append(single_value)
+            return (True, values)
         else:
             return (False, None)
 
@@ -148,9 +167,17 @@ class Hand(Deck):
     def is_three_of_a_kind(self):
         diff_ranks = self.diffrent_ranks()
         max_rank = max(diff_ranks.values())
+        values = []
+        single_value = None
         if max_rank == 3:
-            value = list(diff_ranks.keys())[list(diff_ranks.values()).index(max_rank)]
-            return (True, [value])
+            for r, c in diff_ranks.items():
+                if c == 3:
+                    single_value = r
+                else:
+                    values.append(r)
+            values.sort(reverse=True)
+            values.insert(0, single_value)
+            return (True, values)
         else:
             return (False, None)
 
@@ -220,6 +247,7 @@ class Hand(Deck):
         self.is_four_of_a_kind(), \
         self.is_full_house(), \
         self.is_flush(), \
+        self.is_straight(),
         self.is_three_of_a_kind(), \
         self.is_two_diff_pairs(), \
         self.is_pair()]
@@ -228,7 +256,7 @@ def calculate_winner(black_player_hand, white_player_hand):
     black_best_hand = black_player_hand.max_hand_value()
     white_best_hand = white_player_hand.max_hand_value()
     winner = None
-    for i in range(7):
+    for i in range(8):
         (b_won, b_card) = black_best_hand[i]
         (w_won, w_card) = white_best_hand[i]
         if b_won and not w_won:
