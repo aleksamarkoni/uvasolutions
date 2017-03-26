@@ -2,6 +2,16 @@
 #include <algorithm>
 #include <vector>
 
+/*
+This is easy problem, but the size of the array can be large, so you should try
+to optimaze as much as possible. For that reason, we are only using one array
+that will hold diffrent cards that Alice has.
+After that when we check Bob cards, we only do a binary search inside alice_cards
+to calculate the numbers of same cards that Alice and Bob has.
+That way we are saving memory, and calculation time, since Alice array is allready sorted.
+Finaly we find min of numbers of diff cards that Alice and Bob have.
+*/
+
 using namespace std;
 
 int main() {
