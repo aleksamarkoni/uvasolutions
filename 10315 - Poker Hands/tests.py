@@ -149,6 +149,16 @@ class TestHand(unittest.TestCase):
         self.assertEqual(result[0], True)
         self.assertListEqual(result[1], [14, 13, 14])
 
+        hand = Hand("TD TC 2D 2H AC")
+        result = hand.is_two_diff_pairs()
+        self.assertEqual(result[0], True)
+        self.assertListEqual(result[1], [10, 2, 14])
+
+        hand = Hand("TS TH 3S 3D 2S")
+        result = hand.is_two_diff_pairs()
+        self.assertEqual(result[0], True)
+        self.assertListEqual(result[1], [10, 3, 2])
+
     def test_isPair(self):
         hand = Hand("QS AD 9C QH KS")
         result = hand.is_pair()
@@ -249,6 +259,11 @@ class TestHand(unittest.TestCase):
         white = Hand("4D 5D 6D 7D 8D")
         winner = calculate_winner(black, white)
         self.assertEqual(winner, "White wins.")
+
+        white = Hand("TD TC 2D 2H AC")
+        black = Hand("TS TH 3S 3D 2S")
+        winner = calculate_winner(white, black)
+        self.assertEqual(winner, "Black wins.")
 
 if __name__=='__main__':
     unittest.main()
