@@ -24,7 +24,7 @@ int calculate(int m, int n) {
     return max;
   if (min == 2)
     return 2 * ((max / 4) * 2 + std::min(max % 4, 2));
-  return (m*n+1) / 2;
+  return (m * n + 1) / 2;
 }
 
 int main() {
