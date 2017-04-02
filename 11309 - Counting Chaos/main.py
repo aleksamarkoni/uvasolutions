@@ -1,5 +1,12 @@
 import sys
 
+'''
+This code is correct, but please don't look at it :)
+It will be efficent then to do loop untill you don't find time in the future
+which is palindrom, going one minute by one minute in the future, but
+so much corner cases and so much if else. It can be optimizes :)
+'''
+
 def calculate(line):
     time = line.split(":")
     hh = int(time[0])
@@ -21,16 +28,34 @@ def calculate(line):
             else:
                 return hh, (mm1+1) * 10 + (mm1 + 1)
     elif hh == 23:
-        if mm < 23:
-            return hh, 23
+        if mm < 32:
+            return hh, 32
         else:
-            return 0, 1
+            return 0, 0
+    elif hh < 10:
+        mmhigh = int(time[1][0])
+        mmlow = int(time[1][1])
+        if mmlow < hh:
+            return hh, mmhigh * 10 + hh
+        else:
+            if mmhigh + 1 < 6:
+                return hh, (mmhigh + 1) * 10 + hh
+            else:
+                if hh + 1 != 10:
+                    return hh + 1, hh + 1
+                else:
+                    return 10, 1
     else:
         if mm < int(time[0][::-1]):
-            return hh, int(time[0][::-1])
+            if hh < 16 or hh > 19:
+                return hh, int(time[0][::-1])
+            else:
+                return 20, 2
         else:
-            return hh + 1, int(str(hh + 1)[::-1])
-
+            if hh + 1 < 16 or hh + 1 > 19:
+                return hh + 1, int(str(hh + 1)[::-1])
+            else:
+                return 20, 2
 line = sys.stdin.readline().strip()
 tc = int(line)
 for test in range(tc):
