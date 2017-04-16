@@ -113,27 +113,53 @@ class Ship {
     return maxWeightLeftContainers;
   }
 
+  public int cargoWeight() {
+    int sum = 0;
+    for (Container container : containers) {
+      sum += container.getCurrentCapacity();
+    }
+    return sum;
+  }
+
+  public int unusedWeight() {
+    int sum = 0;
+    for (Container container : containers) {
+      sum += container.getAvalableSpaceLeft();
+    }
+    return sum;
+  }
+
   @Override
   public String toString() {
     int max = 0;
     for (Container container : containers)
       if (container.getNumberOfPackages() > max)
         max = container.getNumberOfPackages();
-    char mat[][] = new char[containers.size()][max + 2];
+    int totalWidth = 2 * containers.size() - 1;
+    char mat[][] = new char[containers.size() + containers.size() - 1][max + 2];
     //System.out.println(max);
-    for (int i = 0; i < containers.size(); i++) {
-      mat[i][0] = (char)('0' + i + 1);
+    int i = 0;
+    while(i < totalWidth) {
+      mat[i][0] = (char)('0' + (i / 2) + 1);
       mat[i][1] = '=';
-      Container container = containers.get(i);
+      if (i + 1 < totalWidth) {
+        mat[i + 1][0] = ' ';
+        mat[i + 1][1] = '=';
+      }
+      Container container = containers.get(i / 2);
       for (int j = 0; j < max; j++) {
         mat[i][2+j] = (j < container.getNumberOfPackages())
           ? (char)(container.getPackage(j) + '0')
           : ':';
+        if (i + 1 < totalWidth)
+          mat[i+1][2+j] = ' ';
       }
+      i += 2;
     }
+
     StringBuilder stringBuilder = new StringBuilder();
     for (int j = max + 1; j >= 0; j--) {
-      for (int i = 0; i < containers.size(); i++) {
+      for (i = 0; i < totalWidth; i++) {
         stringBuilder.append(mat[i][j]);
       }
       stringBuilder.append('\n');
@@ -146,15 +172,29 @@ class Main
 {
   public static void main (String args[]) {
     Scanner in = new Scanner(System.in);
-    int numOfContainers = in.nextInt();
-    Ship ship = new Ship(numOfContainers);
-    for (int i = 0; i < numOfContainers; i++) {
-      ship.addContainer(new Container(in.nextInt(), i+1));
+    int t = 0;
+    while (in.hasNextInt()) {
+      if (t++!=0)
+        System.out.println();
+      int numOfContainers = in.nextInt();
+      Ship ship = new Ship(numOfContainers);
+      for (int i = 0; i < numOfContainers; i++) {
+        ship.addContainer(new Container(in.nextInt(), i+1));
+      }
+      int numOfPackages = in.nextInt();
+      boolean canLoad = true;
+      int unloaded = 0;
+      for (int i = 0; i < numOfPackages; i++) {
+        int packageWeight = in.nextInt();
+        if (canLoad)
+          canLoad = ship.addPackage(packageWeight);
+        if (!canLoad)
+          unloaded += packageWeight;
+      }
+      System.out.println(ship);
+      System.out.println("cargo weight: " + ship.cargoWeight());
+      System.out.println("unused weight: " + ship.unusedWeight());
+      System.out.println("unloaded weight: " + unloaded);
     }
-    int numOfPackages = in.nextInt();
-    for (int i = 0; i < numOfPackages; i++) {
-      ship.addPackage(in.nextInt());
-    }
-    System.out.println(ship);
   }
 }
