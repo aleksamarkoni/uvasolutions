@@ -1,6 +1,11 @@
 import java.util.Scanner;
 import java.util.*;
 
+/* Use priority quee to store Lights object and compare using the time of the
+next light change. The only problem is that you can have more then one light change
+in the single secound of time. In this case change all the lights that are
+going to happen in that secound and then see if all the lights are green */
+
 class Light implements Comparable<Light> {
   public boolean green;
   public int greenInterval;
