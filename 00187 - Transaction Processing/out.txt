@@ -1,0 +1,772 @@
+*** Transaction 238 is out of balance ***
+251 NPcMLGbnsggSpRE                  61288.94
+474 vKWYwueVztZohzReRBWekvquCxXcI    62456.82
+714 aOTRDOtRqUDAzScHQLEddKYq         -5570.99
+310 nBOFhrfsnThGgh                   -7930.00
+960 oNHJRiAFYSUuUNdfspUmKsPEziGSB    -1265.84
+462 YwmZTBtHxfyAisLtEHeZxPTALB       65219.43
+447 nkArZdCCmvYXGVZinOMiZoVXHrpHK    -7673.73
+296 aJmRAXqwUBlO                     -9587.16
+491 AmHAgAPUO                        39522.04
+999 Out of Balance                 -196459.51
+
+*** Transaction 234 is out of balance ***
+749 mCnjMsLNthyftPhLsVyEFvTVDhat     -7083.60
+999 Out of Balance                    7083.60
+
+*** Transaction 587 is out of balance ***
+586 tTuP                             -4688.27
+361 vNIbVscDXbVMLFaNtyIFKi           -9668.62
+310 nBOFhrfsnThGgh                   38487.79
+535 qTf                              -6665.74
+408 RFHWXXHPTQo                      -3810.15
+651 ugLZs                             2637.71
+981 FTAPsU                            1982.84
+999 Out of Balance                  -18275.56
+
+*** Transaction 927 is out of balance ***
+338 bDLcmWUWKvylFBalA                 -676.87
+981 FTAPsU                           -2999.84
+612 pB                               57359.15
+182 k                                   59.36
+586 tTuP                             65223.72
+504 LtmnoSGcByC                      -1741.03
+417 bcfYu                            71175.23
+999 Out of Balance                 -188399.72
+
+*** Transaction 712 is out of balance ***
+599 cPmMGPMrHtEnbWURHdHblFo          -6642.57
+925 nnHQKRrTmBruBDjOMpQaC            -7994.29
+519 ewPgMnTOjHUPvGH                  -6770.92
+388 udJQHywKjbmQZuPGvBg              -3670.66
+007 jvla                             -5499.85
+970 iCmwuZVcUOwMOSTcCt               -8259.18
+338 bDLcmWUWKvylFBalA                -8102.69
+296 aJmRAXqwUBlO                     -6679.68
+408 RFHWXXHPTQo                      -4989.44
+999 Out of Balance                   58609.28
+
+*** Transaction 297 is out of balance ***
+714 aOTRDOtRqUDAzScHQLEddKYq         73528.13
+999 Out of Balance                  -73528.13
+
+*** Transaction 033 is out of balance ***
+714 aOTRDOtRqUDAzScHQLEddKYq          -851.94
+074 CxUfntyWvw                        -465.39
+612 pB                               22281.89
+999 Out of Balance                  -20964.56
+
+*** Transaction 228 is out of balance ***
+372 OTbaZSbCKsrSXzoA                 -5448.56
+408 RFHWXXHPTQo                      -4232.01
+999 Out of Balance                    9680.57
+
+*** Transaction 184 is out of balance ***
+651 ugLZs                            -3038.89
+296 aJmRAXqwUBlO                     -4672.01
+761 PCpcVagdO                        48321.86
+181 Y                                -9053.26
+124 XtTdhaTyCEZxmDaYwcfZCg           -4077.63
+491 AmHAgAPUO                         -392.88
+121 wwRrpddjABpiefXgTshukalzoFOzy    30742.11
+645 wzklYoGPTryszyX                  38922.88
+234 fErqTkpVNvQVWbGiCjAbOCJkuPoe     16841.96
+007 jvla                              9246.62
+999 Out of Balance                 -122840.76
+
+*** Transaction 109 is out of balance ***
+144 tsprAq                            -368.80
+089 QRPTopwkjpOfd                    -1946.70
+361 vNIbVscDXbVMLFaNtyIFKi           -2252.16
+334 biTYqNZdFaQxXoHuKsFXzOjKIhS       3821.13
+650 SjvmBsdruvpAhXDfZwxdbRfuFybo     -5468.41
+999 Out of Balance                    6214.94
+
+*** Transaction 162 is out of balance ***
+007 jvla                             -6129.50
+285 wenHvyFvmzsEvylqOVvT             -7937.67
+334 biTYqNZdFaQxXoHuKsFXzOjKIhS      -3718.11
+649 dCQgxjygxb                       26281.85
+999 Out of Balance                   -8496.57
+
+*** Transaction 214 is out of balance ***
+579 aLFgYlQKzd                       86769.67
+638 Fzs                              -7960.37
+999 Out of Balance                  -78809.30
+
+*** Transaction 666 is out of balance ***
+587 ltaIuvtmRlbyjNhtK                67012.04
+874 vmuIKylxBJDhQS                   67078.50
+599 cPmMGPMrHtEnbWURHdHblFo          51164.28
+579 aLFgYlQKzd                       -2515.36
+771 jweYmxWVMdfRtZKIn                -9493.12
+999 Out of Balance                 -173246.34
+
+*** Transaction 886 is out of balance ***
+582 bwYSMjnEvoGcYVlrRKBCi            -7309.83
+749 mCnjMsLNthyftPhLsVyEFvTVDhat     -4326.34
+999 Out of Balance                   11636.17
+
+*** Transaction 251 is out of balance ***
+765 kaNfbBgtsgkgtcslMrfxiuDQcWdU     -9990.79
+999 Out of Balance                    9990.79
+
+*** Transaction 998 is out of balance ***
+879 aPMm                             72426.04
+080 FIUxfr                           -2007.91
+429 HXpLVkAzBSvjWHx                   6867.04
+332 hacKpaWXZGneVXmIRqRYJw           -2427.90
+999 Out of Balance                  -74857.27
+
+*** Transaction 627 is out of balance ***
+411 CmyUUlSOaolAg                    -3806.10
+504 LtmnoSGcByC                      98006.11
+879 aPMm                             85948.26
+332 hacKpaWXZGneVXmIRqRYJw           -6242.15
+474 vKWYwueVztZohzReRBWekvquCxXcI    63672.82
+818 htuUmweRUIJPiwjcDEvRSvqvPg       -5034.48
+999 Out of Balance                 -232544.46
+
+*** Transaction 715 is out of balance ***
+807 UIXipdVaN                        56000.34
+902 KryPGWsRVEGLXiDNrlvjiJJzr        -7119.98
+285 wenHvyFvmzsEvylqOVvT             -1221.04
+638 Fzs                              -6328.93
+171 dXyPxCIybFYVTKFFVVGozCGCTWJf     55682.29
+999 Out of Balance                  -97012.68
+
+*** Transaction 502 is out of balance ***
+529 SUrUBXMKRsdn                     -9672.49
+902 KryPGWsRVEGLXiDNrlvjiJJzr        11796.76
+498 mwVgFxVsCXoPQhQGTOWNAIV          60342.14
+347 JGpofvOYghHxsKiZvlHefLKXkquIDQ   55547.41
+237 doATcBCKZkmnRcyTZaxOdWjYtIQyp     -528.18
+118 mXVnqnpnFrUBRFGRMKFUqWu          66779.73
+313 pVleN                            69180.84
+999 Out of Balance                 -253446.21
+
+*** Transaction 071 is out of balance ***
+139 r                                61721.05
+651 ugLZs                            -3566.55
+714 aOTRDOtRqUDAzScHQLEddKYq         -5923.12
+134 uGXsAKtwcvTBnIqUbUcTvMXJMg       68938.03
+970 iCmwuZVcUOwMOSTcCt               60036.30
+999 Out of Balance                 -181205.71
+
+*** Transaction 337 is out of balance ***
+714 aOTRDOtRqUDAzScHQLEddKYq         77211.84
+818 htuUmweRUIJPiwjcDEvRSvqvPg       69152.75
+813 cGFrZJvwBUBbb                    60054.16
+372 OTbaZSbCKsrSXzoA                 34539.10
+080 FIUxfr                           56862.08
+239 cwzBI                            19803.09
+045 TxWgGQPNaIeftSDddNnEW            29568.87
+999 Out of Balance                 -347191.89
+
+*** Transaction 357 is out of balance ***
+714 aOTRDOtRqUDAzScHQLEddKYq         23414.61
+462 YwmZTBtHxfyAisLtEHeZxPTALB        8485.13
+645 wzklYoGPTryszyX                   2959.98
+089 QRPTopwkjpOfd                    78830.90
+045 TxWgGQPNaIeftSDddNnEW            -2654.72
+338 bDLcmWUWKvylFBalA                -1944.37
+296 aJmRAXqwUBlO                     -9387.05
+999 Out of Balance                  -99704.48
+
+*** Transaction 182 is out of balance ***
+587 ltaIuvtmRlbyjNhtK                 -342.90
+417 bcfYu                            -2549.27
+080 FIUxfr                           -9423.11
+714 aOTRDOtRqUDAzScHQLEddKYq          4172.15
+361 vNIbVscDXbVMLFaNtyIFKi           91427.26
+612 pB                               46229.70
+582 bwYSMjnEvoGcYVlrRKBCi            -5197.17
+052 WbFRTldrwTCJuhRANHDFxmctLGgrsn   77392.23
+999 Out of Balance                 -201708.89
+
+*** Transaction 392 is out of balance ***
+761 PCpcVagdO                        66192.57
+902 KryPGWsRVEGLXiDNrlvjiJJzr        57676.31
+771 jweYmxWVMdfRtZKIn                -1750.66
+664 mluczGazgFR                      27792.70
+493 oihHaZjSRoQAGqhUET               -3870.77
+388 udJQHywKjbmQZuPGvBg              61053.94
+649 dCQgxjygxb                       -7796.11
+429 HXpLVkAzBSvjWHx                  -2696.47
+587 ltaIuvtmRlbyjNhtK                58117.78
+408 RFHWXXHPTQo                      34805.91
+999 Out of Balance                 -289525.20
+
+*** Transaction 910 is out of balance ***
+650 SjvmBsdruvpAhXDfZwxdbRfuFybo     65463.47
+664 mluczGazgFR                      -2528.76
+999 Out of Balance                  -62934.71
+
+*** Transaction 912 is out of balance ***
+504 LtmnoSGcByC                      -9957.26
+493 oihHaZjSRoQAGqhUET               -8472.38
+902 KryPGWsRVEGLXiDNrlvjiJJzr        -6398.64
+139 r                                -4862.10
+755 BEvplzQhKlWImFwmBlTziyOYE        75976.70
+818 htuUmweRUIJPiwjcDEvRSvqvPg       -1085.54
+645 wzklYoGPTryszyX                  12010.44
+296 aJmRAXqwUBlO                     11981.55
+649 dCQgxjygxb                         758.27
+429 HXpLVkAzBSvjWHx                  -2522.25
+999 Out of Balance                  -67428.79
+
+*** Transaction 826 is out of balance ***
+645 wzklYoGPTryszyX                  66154.33
+749 mCnjMsLNthyftPhLsVyEFvTVDhat     -9973.48
+651 ugLZs                            -3840.96
+285 wenHvyFvmzsEvylqOVvT             -7160.89
+999 Out of Balance                  -45179.00
+
+*** Transaction 257 is out of balance ***
+503 GIBspdBz                         42985.55
+089 QRPTopwkjpOfd                    -6444.73
+651 ugLZs                            -9055.11
+840 JOnVCYsGR                        79448.18
+251 NPcMLGbnsggSpRE                  -1772.41
+365 qfaOrpHXdVmzKUY                  -8998.43
+081 LvsPuxnXFBHvXed                  86477.89
+749 mCnjMsLNthyftPhLsVyEFvTVDhat     86450.52
+645 wzklYoGPTryszyX                  -7960.67
+999 Out of Balance                 -261130.79
+
+*** Transaction 876 is out of balance ***
+462 YwmZTBtHxfyAisLtEHeZxPTALB       14674.18
+310 nBOFhrfsnThGgh                   83250.71
+313 pVleN                            53471.92
+652 Q                                -2865.19
+118 mXVnqnpnFrUBRFGRMKFUqWu           -367.71
+999 Out of Balance                 -148163.91
+
+*** Transaction 986 is out of balance ***
+652 Q                                -1439.09
+649 dCQgxjygxb                       56736.36
+335 rhBrxPLvLPsATZs                  57188.47
+272 bNWIiGJXudpdvHP                  19649.65
+807 UIXipdVaN                        66664.66
+493 oihHaZjSRoQAGqhUET               -9926.19
+411 CmyUUlSOaolAg                     -349.75
+408 RFHWXXHPTQo                      -8747.42
+999 Out of Balance                 -179776.69
+
+*** Transaction 152 is out of balance ***
+649 dCQgxjygxb                       -5370.42
+045 TxWgGQPNaIeftSDddNnEW            -3597.81
+579 aLFgYlQKzd                        -962.51
+493 oihHaZjSRoQAGqhUET               -9751.47
+139 r                                 -307.66
+498 mwVgFxVsCXoPQhQGTOWNAIV          -6097.49
+134 uGXsAKtwcvTBnIqUbUcTvMXJMg        -495.99
+960 oNHJRiAFYSUuUNdfspUmKsPEziGSB    -4228.29
+999 Out of Balance                   30811.64
+
+*** Transaction 740 is out of balance ***
+080 FIUxfr                           -2275.02
+410 dWmzxeC                          -6456.40
+893 tmiOaSNtFkCyyjXVw                -1540.05
+417 bcfYu                            41522.58
+999 Out of Balance                  -31251.11
+
+*** Transaction 003 is out of balance ***
+981 FTAPsU                           87986.75
+999 Out of Balance                  -87986.75
+
+*** Transaction 355 is out of balance ***
+649 dCQgxjygxb                       74832.82
+237 doATcBCKZkmnRcyTZaxOdWjYtIQyp    51536.57
+498 mwVgFxVsCXoPQhQGTOWNAIV          63658.01
+874 vmuIKylxBJDhQS                   54079.85
+999 Out of Balance                 -244107.25
+
+*** Transaction 857 is out of balance ***
+447 nkArZdCCmvYXGVZinOMiZoVXHrpHK    70694.39
+199 BEOvYkuqhtk                      -4884.78
+755 BEvplzQhKlWImFwmBlTziyOYE         7707.57
+620 SqrVQiP                          29415.09
+703 RWaOpljFRF                        -493.87
+999 Out of Balance                 -102438.40
+
+*** Transaction 557 is out of balance ***
+408 RFHWXXHPTQo                      10900.90
+272 bNWIiGJXudpdvHP                  -1040.20
+410 dWmzxeC                          54556.43
+813 cGFrZJvwBUBbb                    73891.92
+447 nkArZdCCmvYXGVZinOMiZoVXHrpHK    80906.96
+519 ewPgMnTOjHUPvGH                    -14.28
+118 mXVnqnpnFrUBRFGRMKFUqWu          -5328.84
+074 CxUfntyWvw                       -7409.99
+334 biTYqNZdFaQxXoHuKsFXzOjKIhS      44444.07
+620 SqrVQiP                          -7458.91
+999 Out of Balance                 -243448.06
+
+*** Transaction 605 is out of balance ***
+134 uGXsAKtwcvTBnIqUbUcTvMXJMg       -5804.29
+447 nkArZdCCmvYXGVZinOMiZoVXHrpHK    -7991.34
+052 WbFRTldrwTCJuhRANHDFxmctLGgrsn   74693.13
+474 vKWYwueVztZohzReRBWekvquCxXcI    79146.34
+124 XtTdhaTyCEZxmDaYwcfZCg           28845.99
+657 cXcTcZqnxJSKgpjRKwBDee           -6890.80
+313 pVleN                            -1300.11
+999 Out of Balance                 -160698.92
+
+*** Transaction 197 is out of balance ***
+813 cGFrZJvwBUBbb                    -7940.12
+837 YGUwOrYeGUe                      49605.95
+664 mluczGazgFR                      52622.53
+925 nnHQKRrTmBruBDjOMpQaC            -1704.10
+493 oihHaZjSRoQAGqhUET               -2859.59
+612 pB                               45293.36
+498 mwVgFxVsCXoPQhQGTOWNAIV          21542.27
+335 rhBrxPLvLPsATZs                  -7359.77
+999 Out of Balance                 -149200.53
+
+*** Transaction 786 is out of balance ***
+121 wwRrpddjABpiefXgTshukalzoFOzy     -259.67
+361 vNIbVscDXbVMLFaNtyIFKi           -6144.03
+366 xEbI                             20917.85
+697 KsniBulHWQQBjHXfJ                45207.97
+654 xKldBEyUQqXBFIOFRnH              -3041.96
+081 LvsPuxnXFBHvXed                  -3337.48
+714 aOTRDOtRqUDAzScHQLEddKYq         -4656.90
+310 nBOFhrfsnThGgh                   76923.65
+766 FKMGdfYZnrAFSOMfSErcVJaAYaFl     -2717.90
+999 Out of Balance                 -122891.53
+
+*** Transaction 632 is out of balance ***
+080 FIUxfr                           71824.00
+251 NPcMLGbnsggSpRE                  45318.48
+818 htuUmweRUIJPiwjcDEvRSvqvPg       -4766.20
+335 rhBrxPLvLPsATZs                  43205.99
+124 XtTdhaTyCEZxmDaYwcfZCg             931.84
+388 udJQHywKjbmQZuPGvBg              -8072.72
+649 dCQgxjygxb                        3803.36
+970 iCmwuZVcUOwMOSTcCt               69699.09
+365 qfaOrpHXdVmzKUY                  -6659.85
+999 Out of Balance                 -215283.99
+
+*** Transaction 278 is out of balance ***
+233 SBjI                             51645.52
+335 rhBrxPLvLPsATZs                  -1768.84
+332 hacKpaWXZGneVXmIRqRYJw           87482.98
+874 vmuIKylxBJDhQS                   79196.85
+654 xKldBEyUQqXBFIOFRnH              92822.40
+504 LtmnoSGcByC                      68603.57
+999 Out of Balance                 -377982.48
+
+*** Transaction 637 is out of balance ***
+519 ewPgMnTOjHUPvGH                  32289.97
+807 UIXipdVaN                         -495.04
+074 CxUfntyWvw                       22353.35
+447 nkArZdCCmvYXGVZinOMiZoVXHrpHK    52773.04
+893 tmiOaSNtFkCyyjXVw                -1196.04
+999 Out of Balance                 -105725.28
+
+*** Transaction 256 is out of balance ***
+272 bNWIiGJXudpdvHP                  34968.79
+645 wzklYoGPTryszyX                  59797.84
+647 vOkam                            -4272.88
+999 Out of Balance                  -90493.75
+
+*** Transaction 618 is out of balance ***
+703 RWaOpljFRF                       78353.73
+925 nnHQKRrTmBruBDjOMpQaC            -8025.92
+338 bDLcmWUWKvylFBalA                 -989.05
+089 QRPTopwkjpOfd                    -8039.00
+251 NPcMLGbnsggSpRE                  -6929.70
+999 Out of Balance                  -54370.06
+
+*** Transaction 341 is out of balance ***
+089 QRPTopwkjpOfd                    31172.94
+417 bcfYu                            68871.69
+831 NjoebLgdDbhvS                    74731.50
+237 doATcBCKZkmnRcyTZaxOdWjYtIQyp    57994.68
+498 mwVgFxVsCXoPQhQGTOWNAIV          62824.47
+893 tmiOaSNtFkCyyjXVw                13806.94
+874 vmuIKylxBJDhQS                   -3059.43
+999 Out of Balance                 -306342.79
+
+*** Transaction 999 is out of balance ***
+237 doATcBCKZkmnRcyTZaxOdWjYtIQyp        0.03
+874 vmuIKylxBJDhQS                       0.09
+498 mwVgFxVsCXoPQhQGTOWNAIV             -0.05
+893 tmiOaSNtFkCyyjXVw                   -0.05
+182 k                                    0.02
+999 Out of Balance                      -0.04
+
+*** Transaction 554 is out of balance ***
+182 k                                 7129.03
+089 QRPTopwkjpOfd                    -1784.77
+649 dCQgxjygxb                        -382.10
+144 tsprAq                           -9200.33
+657 cXcTcZqnxJSKgpjRKwBDee           -1371.18
+599 cPmMGPMrHtEnbWURHdHblFo          76923.72
+999 Out of Balance                  -71314.37
+
+*** Transaction 023 is out of balance ***
+493 oihHaZjSRoQAGqhUET               47675.70
+813 cGFrZJvwBUBbb                    32162.76
+529 SUrUBXMKRsdn                     16684.50
+649 dCQgxjygxb                       79450.34
+840 JOnVCYsGR                         4371.62
+761 PCpcVagdO                        -9223.07
+582 bwYSMjnEvoGcYVlrRKBCi            -6805.29
+703 RWaOpljFRF                       -6355.76
+755 BEvplzQhKlWImFwmBlTziyOYE        17499.06
+645 wzklYoGPTryszyX                   1865.90
+999 Out of Balance                 -177325.76
+
+*** Transaction 630 is out of balance ***
+697 KsniBulHWQQBjHXfJ                -9433.64
+139 r                                -7285.50
+081 LvsPuxnXFBHvXed                  81952.19
+474 vKWYwueVztZohzReRBWekvquCxXcI    12169.65
+121 wwRrpddjABpiefXgTshukalzoFOzy    89236.32
+749 mCnjMsLNthyftPhLsVyEFvTVDhat     -5502.34
+372 OTbaZSbCKsrSXzoA                  -427.27
+999 Out of Balance                 -160709.41
+
+*** Transaction 465 is out of balance ***
+372 OTbaZSbCKsrSXzoA                 51218.71
+879 aPMm                             72064.55
+366 xEbI                             15461.56
+657 cXcTcZqnxJSKgpjRKwBDee           11422.05
+925 nnHQKRrTmBruBDjOMpQaC            -3644.18
+411 CmyUUlSOaolAg                    41103.04
+645 wzklYoGPTryszyX                   5175.06
+999 Out of Balance                 -192800.79
+
+*** Transaction 626 is out of balance ***
+703 RWaOpljFRF                       99029.55
+139 r                                  465.87
+408 RFHWXXHPTQo                      35190.40
+766 FKMGdfYZnrAFSOMfSErcVJaAYaFl     52695.98
+164 VjrXVKzBKdQt                     26856.58
+999 Out of Balance                 -214238.38
+
+*** Transaction 391 is out of balance ***
+144 tsprAq                           -1227.91
+535 qTf                              64082.25
+651 ugLZs                            59549.66
+347 JGpofvOYghHxsKiZvlHefLKXkquIDQ   17565.10
+650 SjvmBsdruvpAhXDfZwxdbRfuFybo     31289.60
+647 vOkam                             -810.93
+837 YGUwOrYeGUe                      -1524.24
+587 ltaIuvtmRlbyjNhtK                -9155.89
+652 Q                                66075.00
+749 mCnjMsLNthyftPhLsVyEFvTVDhat     -3267.70
+999 Out of Balance                 -222574.94
+
+*** Transaction 268 is out of balance ***
+649 dCQgxjygxb                       -2493.63
+582 bwYSMjnEvoGcYVlrRKBCi            77854.18
+766 FKMGdfYZnrAFSOMfSErcVJaAYaFl     12734.76
+902 KryPGWsRVEGLXiDNrlvjiJJzr        11176.62
+498 mwVgFxVsCXoPQhQGTOWNAIV          65901.17
+134 uGXsAKtwcvTBnIqUbUcTvMXJMg       -5475.74
+493 oihHaZjSRoQAGqhUET               -4073.02
+347 JGpofvOYghHxsKiZvlHefLKXkquIDQ   -7480.85
+491 AmHAgAPUO                         5122.79
+338 bDLcmWUWKvylFBalA                -3055.77
+999 Out of Balance                 -150210.51
+
+*** Transaction 805 is out of balance ***
+638 Fzs                              85813.72
+429 HXpLVkAzBSvjWHx                   3631.76
+519 ewPgMnTOjHUPvGH                  -4185.23
+771 jweYmxWVMdfRtZKIn                99757.15
+171 dXyPxCIybFYVTKFFVVGozCGCTWJf     75027.84
+199 BEOvYkuqhtk                      -4241.97
+074 CxUfntyWvw                       -9482.26
+999 Out of Balance                 -246321.01
+
+*** Transaction 898 is out of balance ***
+313 pVleN                            -5449.57
+999 Out of Balance                    5449.57
+
+*** Transaction 566 is out of balance ***
+491 AmHAgAPUO                        94665.69
+981 FTAPsU                           -5211.76
+365 qfaOrpHXdVmzKUY                  -6744.06
+234 fErqTkpVNvQVWbGiCjAbOCJkuPoe     -6721.05
+410 dWmzxeC                          30674.11
+960 oNHJRiAFYSUuUNdfspUmKsPEziGSB    59387.48
+089 QRPTopwkjpOfd                    77950.33
+833 xChWxThcTGLMMzwkHUiyNRMpfHpsk    -6034.36
+620 SqrVQiP                          94039.70
+999 Out of Balance                 -332006.08
+
+*** Transaction 552 is out of balance ***
+491 AmHAgAPUO                        -6689.53
+657 cXcTcZqnxJSKgpjRKwBDee           46110.72
+649 dCQgxjygxb                       30465.41
+999 Out of Balance                  -69886.60
+
+*** Transaction 068 is out of balance ***
+960 oNHJRiAFYSUuUNdfspUmKsPEziGSB    -7384.83
+296 aJmRAXqwUBlO                     -1636.26
+493 oihHaZjSRoQAGqhUET               -5368.71
+316 gSaEnoDXuKkMIaqLliI              39896.96
+999 Out of Balance                  -25507.16
+
+*** Transaction 528 is out of balance ***
+874 vmuIKylxBJDhQS                   -2604.30
+474 vKWYwueVztZohzReRBWekvquCxXcI    92766.48
+999 Out of Balance                  -90162.18
+
+*** Transaction 480 is out of balance ***
+118 mXVnqnpnFrUBRFGRMKFUqWu          -9230.19
+761 PCpcVagdO                        16514.28
+498 mwVgFxVsCXoPQhQGTOWNAIV          -8194.05
+411 CmyUUlSOaolAg                    58138.41
+052 WbFRTldrwTCJuhRANHDFxmctLGgrsn   -7611.98
+999 Out of Balance                  -49616.47
+
+*** Transaction 067 is out of balance ***
+121 wwRrpddjABpiefXgTshukalzoFOzy    -1855.68
+272 bNWIiGJXudpdvHP                  -1880.77
+429 HXpLVkAzBSvjWHx                  30722.84
+462 YwmZTBtHxfyAisLtEHeZxPTALB       -4572.07
+647 vOkam                            99390.05
+089 QRPTopwkjpOfd                    -8970.15
+999 Out of Balance                 -112834.22
+
+*** Transaction 919 is out of balance ***
+272 bNWIiGJXudpdvHP                  41772.98
+999 Out of Balance                  -41772.98
+
+*** Transaction 483 is out of balance ***
+134 uGXsAKtwcvTBnIqUbUcTvMXJMg       -7760.00
+237 doATcBCKZkmnRcyTZaxOdWjYtIQyp    -1694.52
+599 cPmMGPMrHtEnbWURHdHblFo          -9428.06
+612 pB                               -2213.65
+052 WbFRTldrwTCJuhRANHDFxmctLGgrsn   -4474.52
+388 udJQHywKjbmQZuPGvBg               -606.20
+335 rhBrxPLvLPsATZs                  -8924.99
+272 bNWIiGJXudpdvHP                  74009.21
+361 vNIbVscDXbVMLFaNtyIFKi           77294.09
+999 Out of Balance                 -116201.36
+
+*** Transaction 476 is out of balance ***
+491 AmHAgAPUO                        -9272.51
+960 oNHJRiAFYSUuUNdfspUmKsPEziGSB    -9997.65
+874 vmuIKylxBJDhQS                   -2968.00
+649 dCQgxjygxb                       65528.32
+171 dXyPxCIybFYVTKFFVVGozCGCTWJf     78061.05
+519 ewPgMnTOjHUPvGH                  -7718.76
+999 Out of Balance                 -113632.45
+
+*** Transaction 396 is out of balance ***
+074 CxUfntyWvw                       -9687.91
+999 Out of Balance                    9687.91
+
+*** Transaction 551 is out of balance ***
+285 wenHvyFvmzsEvylqOVvT             -6658.34
+182 k                                99028.64
+251 NPcMLGbnsggSpRE                  67100.66
+818 htuUmweRUIJPiwjcDEvRSvqvPg       28738.56
+657 cXcTcZqnxJSKgpjRKwBDee           46793.94
+007 jvla                              8946.57
+999 Out of Balance                 -243950.03
+
+*** Transaction 091 is out of balance ***
+417 bcfYu                            80678.36
+498 mwVgFxVsCXoPQhQGTOWNAIV           -467.44
+999 Out of Balance                  -80210.92
+
+*** Transaction 993 is out of balance ***
+139 r                                27632.78
+447 nkArZdCCmvYXGVZinOMiZoVXHrpHK    67039.26
+766 FKMGdfYZnrAFSOMfSErcVJaAYaFl      -611.32
+491 AmHAgAPUO                         9609.40
+529 SUrUBXMKRsdn                     54198.86
+999 Out of Balance                 -157868.98
+
+*** Transaction 561 is out of balance ***
+771 jweYmxWVMdfRtZKIn                -1153.45
+296 aJmRAXqwUBlO                       -23.13
+749 mCnjMsLNthyftPhLsVyEFvTVDhat     -6957.33
+766 FKMGdfYZnrAFSOMfSErcVJaAYaFl     -7016.70
+620 SqrVQiP                          45284.81
+999 Out of Balance                  -30134.20
+
+*** Transaction 108 is out of balance ***
+296 aJmRAXqwUBlO                     39124.61
+840 JOnVCYsGR                        84030.15
+233 SBjI                             -4430.23
+334 biTYqNZdFaQxXoHuKsFXzOjKIhS      -6438.90
+417 bcfYu                            40196.26
+999 Out of Balance                 -152481.89
+
+*** Transaction 052 is out of balance ***
+519 ewPgMnTOjHUPvGH                  -2978.04
+408 RFHWXXHPTQo                      -2658.68
+081 LvsPuxnXFBHvXed                  -7710.85
+925 nnHQKRrTmBruBDjOMpQaC            -6932.52
+285 wenHvyFvmzsEvylqOVvT               -23.37
+447 nkArZdCCmvYXGVZinOMiZoVXHrpHK    -8191.17
+310 nBOFhrfsnThGgh                   96874.57
+579 aLFgYlQKzd                       16800.43
+638 Fzs                              64349.88
+338 bDLcmWUWKvylFBalA                13054.48
+999 Out of Balance                 -162584.73
+
+*** Transaction 092 is out of balance ***
+429 HXpLVkAzBSvjWHx                  60723.35
+503 GIBspdBz                         -1154.38
+999 Out of Balance                  -59568.97
+
+*** Transaction 201 is out of balance ***
+813 cGFrZJvwBUBbb                    -3522.65
+372 OTbaZSbCKsrSXzoA                 -9876.67
+999 Out of Balance                   13399.32
+
+*** Transaction 639 is out of balance ***
+199 BEOvYkuqhtk                      -6809.80
+462 YwmZTBtHxfyAisLtEHeZxPTALB       17507.93
+007 jvla                             -3671.98
+586 tTuP                             60947.30
+649 dCQgxjygxb                       37053.61
+182 k                                -9418.29
+766 FKMGdfYZnrAFSOMfSErcVJaAYaFl     61383.63
+411 CmyUUlSOaolAg                    -4608.38
+999 Out of Balance                 -152384.02
+
+*** Transaction 205 is out of balance ***
+388 udJQHywKjbmQZuPGvBg              -1282.84
+697 KsniBulHWQQBjHXfJ                -3195.88
+134 uGXsAKtwcvTBnIqUbUcTvMXJMg       -1309.43
+361 vNIbVscDXbVMLFaNtyIFKi           -3156.65
+417 bcfYu                             -429.78
+999 Out of Balance                    9374.58
+
+*** Transaction 678 is out of balance ***
+366 xEbI                             -7989.79
+874 vmuIKylxBJDhQS                   15528.00
+272 bNWIiGJXudpdvHP                  98115.91
+831 NjoebLgdDbhvS                     7302.43
+519 ewPgMnTOjHUPvGH                  31376.36
+999 Out of Balance                 -144332.91
+
+*** Transaction 093 is out of balance ***
+807 UIXipdVaN                         7178.18
+932 bRsOvfjx                         59603.48
+118 mXVnqnpnFrUBRFGRMKFUqWu          -5715.17
+771 jweYmxWVMdfRtZKIn                -9970.77
+171 dXyPxCIybFYVTKFFVVGozCGCTWJf     -2911.68
+999 Out of Balance                  -48184.04
+
+*** Transaction 314 is out of balance ***
+181 Y                                58595.57
+491 AmHAgAPUO                        78334.87
+365 qfaOrpHXdVmzKUY                  66142.58
+620 SqrVQiP                           3624.73
+237 doATcBCKZkmnRcyTZaxOdWjYtIQyp    95470.76
+118 mXVnqnpnFrUBRFGRMKFUqWu          91065.51
+052 WbFRTldrwTCJuhRANHDFxmctLGgrsn    1882.53
+599 cPmMGPMrHtEnbWURHdHblFo          77706.32
+766 FKMGdfYZnrAFSOMfSErcVJaAYaFl     95314.69
+587 ltaIuvtmRlbyjNhtK                -9342.27
+999 Out of Balance                 -558795.29
+
+*** Transaction 313 is out of balance ***
+411 CmyUUlSOaolAg                    -4251.30
+377 mLfK                             -2469.05
+755 BEvplzQhKlWImFwmBlTziyOYE        -9103.12
+999 Out of Balance                   15823.47
+
+*** Transaction 771 is out of balance ***
+233 SBjI                             -5524.18
+139 r                                -2521.68
+134 uGXsAKtwcvTBnIqUbUcTvMXJMg       -2785.34
+474 vKWYwueVztZohzReRBWekvquCxXcI    99641.34
+761 PCpcVagdO                        -6865.04
+902 KryPGWsRVEGLXiDNrlvjiJJzr        73484.10
+923 ebDiPJSjKLHmnDRBTGky             -7345.83
+239 cwzBI                            -5548.02
+388 udJQHywKjbmQZuPGvBg              21345.72
+089 QRPTopwkjpOfd                    83255.17
+999 Out of Balance                 -247136.24
+
+*** Transaction 439 is out of balance ***
+765 kaNfbBgtsgkgtcslMrfxiuDQcWdU      4524.98
+932 bRsOvfjx                         87883.34
+879 aPMm                             94333.81
+089 QRPTopwkjpOfd                    33197.68
+361 vNIbVscDXbVMLFaNtyIFKi           34430.93
+999 Out of Balance                 -254370.74
+
+*** Transaction 944 is out of balance ***
+429 HXpLVkAzBSvjWHx                  -3417.07
+999 Out of Balance                    3417.07
+
+*** Transaction 960 is out of balance ***
+251 NPcMLGbnsggSpRE                  -9475.17
+118 mXVnqnpnFrUBRFGRMKFUqWu          -4861.02
+664 mluczGazgFR                      52994.37
+365 qfaOrpHXdVmzKUY                  97519.31
+638 Fzs                              -1170.84
+586 tTuP                             88673.41
+960 oNHJRiAFYSUuUNdfspUmKsPEziGSB    -1430.44
+833 xChWxThcTGLMMzwkHUiyNRMpfHpsk    13553.36
+999 Out of Balance                 -235802.98
+
+*** Transaction 646 is out of balance ***
+970 iCmwuZVcUOwMOSTcCt                7530.14
+587 ltaIuvtmRlbyjNhtK                11709.45
+649 dCQgxjygxb                        -352.33
+999 Out of Balance                  -18887.26
+
+*** Transaction 335 is out of balance ***
+310 nBOFhrfsnThGgh                   -1476.72
+999 Out of Balance                    1476.72
+
+*** Transaction 885 is out of balance ***
+498 mwVgFxVsCXoPQhQGTOWNAIV          -6643.48
+410 dWmzxeC                          53791.66
+199 BEOvYkuqhtk                      -2108.60
+182 k                                27783.79
+649 dCQgxjygxb                       66210.82
+080 FIUxfr                           16805.32
+411 CmyUUlSOaolAg                    -4074.59
+999 Out of Balance                 -151764.92
+
+*** Transaction 356 is out of balance ***
+285 wenHvyFvmzsEvylqOVvT             -5954.14
+182 k                                -4371.77
+840 JOnVCYsGR                         -624.96
+999 Out of Balance                   10950.87
+
+*** Transaction 699 is out of balance ***
+645 wzklYoGPTryszyX                  -8607.16
+638 Fzs                               -774.48
+932 bRsOvfjx                         13876.94
+649 dCQgxjygxb                       -5972.97
+813 cGFrZJvwBUBbb                    61497.03
+612 pB                               -6652.50
+999 Out of Balance                  -53366.86
+
+*** Transaction 991 is out of balance ***
+761 PCpcVagdO                        73083.93
+417 bcfYu                            10181.33
+923 ebDiPJSjKLHmnDRBTGky             56917.16
+664 mluczGazgFR                      -6551.04
+118 mXVnqnpnFrUBRFGRMKFUqWu          43088.94
+493 oihHaZjSRoQAGqhUET               82823.38
+134 uGXsAKtwcvTBnIqUbUcTvMXJMg       -9849.11
+999 Out of Balance                 -249694.59
+
+*** Transaction 569 is out of balance ***
+586 tTuP                             62765.54
+902 KryPGWsRVEGLXiDNrlvjiJJzr        68548.65
+879 aPMm                             56089.33
+755 BEvplzQhKlWImFwmBlTziyOYE        28285.14
+999 Out of Balance                 -215688.66
+
+*** Transaction 622 is out of balance ***
+771 jweYmxWVMdfRtZKIn                -9860.95
+999 Out of Balance                    9860.95
+
