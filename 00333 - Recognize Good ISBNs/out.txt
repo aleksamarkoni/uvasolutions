@@ -1,0 +1,12 @@
+344245512X is correct.
+3-44-245512X is correct.
+3-4-4-2-4-5-5-1-2-X is correct.
+3 4 4 2 4  5 5 1 2 X is correct.
+34424551XX is incorrect.
+3442455129 is incorrect.
+3442546605 is correct.
+3442546605X is incorrect.
+3442546604 is incorrect.
+178497157X is correct.
+178497157-X is correct.
+1 78-497157X is correct.
