@@ -13,13 +13,13 @@ table = {
 }
 
 tc = int(sys.stdin.readline().strip())
-for tc in range(tc):
-    if tc > 0:
+for t in range(tc):
+    if t > 0:
         print()
-    print("Message #{}".format(tc+1))
+    print("Message #{}".format(t+1))
     line = sys.stdin.readline().strip()
     if not line:
         print()
         continue
-    #python is awesome, problem solved in one line :) :) :) 
+    #python is awesome, problem solved in one line :) :) :)
     print(''.join([' ' if morse == '' else table[morse] for morse in line.split(' ')]))
