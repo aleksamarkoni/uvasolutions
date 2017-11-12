@@ -1,10 +1,12 @@
 import sys
+from queue import PriorityQueue
 
 class Node:
     def __init__(self, parent, value):
         self.value = value
         self.parent = parent
         self.values = []
+        self.redirect = PriorityQueue()
     
     def __repr__(self):
         return stf(self.value)
@@ -24,11 +26,11 @@ class BST:
     #             self.get_inorder(c)
     #         self.sorted.append(str(node.values))
             
-    def add(self, parts):
+    def add(self, parts, priority, domain):
         print(parts)
-        self.add_node(self, self.values, parts, 0)
+        self.add_node(self, self.values, parts, 0, priority, domain)
             
-    def add_node(self, parent, values, parts, i):
+    def add_node(self, parent, values, parts, i, priority, domain):
         if len(parts) == i:
             return
         if not values:
@@ -70,7 +72,7 @@ for i in range(n):
     else:
         priority, domain = line.split();
     name_parts = start_domain.split('.')
-    bst.add(name_parts[::-1])
+    bst.add(name_parts[::-1], priority, domain)
 bst.print_tree()
 while True:
     line = sys.stdin.readline().strip()
