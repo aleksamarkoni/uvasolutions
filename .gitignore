@@ -66,3 +66,7 @@ tramp
 
 #c and c++
 a.out
+
+#clion
+CMakeLists.txt
+*/cmake-build-debug
