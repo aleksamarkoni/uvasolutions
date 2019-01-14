@@ -17,8 +17,8 @@ void promena(char (&mat)[250][250], int m, int n, int i, int j, char color, char
 }
 
 int main() {
-    std::ifstream in("/Users/markonni/git/uvasolutions/10267 - Graphical Editor/input.txt");
-    std::cin.rdbuf(in.rdbuf());
+    //std::ifstream in("/home/aleksamarkoni/gits/uvasolutions/10267 - Graphical Editor/input.txt");
+    //std::cin.rdbuf(in.rdbuf());
     char mat[250][250];
     char c;
     int m, n;
@@ -31,9 +31,10 @@ int main() {
     char newColor;
     char color;
     string fileName;
+    int from, to;
     for (int i = 0; i < 250; i++) {
         for (int j = 0; j < 250; j++) {
-            mat[i][j] = '0';
+            mat[i][j] = 'O';
         }
     }
     bool running = true;
@@ -61,32 +62,59 @@ int main() {
                 break;
             case 'V':
                 cin >> kolona >> y1 >> y2 >> color;
-                for (int i = y1; i <= y2; i++) {
+                if (y1 < y2) {
+                    from = y1;
+                    to = y2;
+                } else {
+                    from = y2;
+                    to = y1;
+                }
+                for (int i = from; i <= to; i++) {
                     mat[i - 1][kolona - 1] = color;
                 }
                 break;
             case 'H':
                 cin >> x1 >> x2 >> red >> color;
-                for (int i = x1; i <= x2; i++) {
+                if (x1 < x2) {
+                    from = x1;
+                    to = x2;
+                } else {
+                    from = x2;
+                    to = x1;
+                }
+                for (int i = from; i <= to; i++) {
                     mat[red - 1][i - 1] = color;
                 }
                 break;
             case 'K':
                 cin >> x1 >> y1 >> x2 >> y2 >> color;
-                int min;
-
-                int max;
+                int tx, ly;
+                int dx, ry;
 
                 if (y1 > y2) {
-                    max = y1;
-                    min = y2;
+                    ly = y2;
+                    ry = y1;
+                    if (x1 > x2) {
+                        tx = x2;
+                        dx = x1;
+                    } else {
+                        tx = x1;
+                        dx = x2;
+                    }
                 } else {
-                    max = y2;
-                    min = y1;
+                    ry = y2;
+                    ly = y1;
+                    if (x1 > x2) {
+                        tx = x2;
+                        dx = x1;
+                    } else {
+                        tx = x1;
+                        dx = x2;
+                    }
                 }
 
-                for (int i = x1; i <= x2; i++) {
-                    for (int j = min; j <= max; j++) {
+                for (int i = tx; i <= dx; i++) {
+                    for (int j = ly; j <= ry; j++) {
                         mat[j - 1][i - 1] = color;
                     }
                 }
